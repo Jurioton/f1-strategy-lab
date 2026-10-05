@@ -1,0 +1,62 @@
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Datasets
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.json
+
+# Trained models / large files
+models/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# ML experiment outputs
+runs/
+logs/
+outputs/
+checkpoints/
+
+# TensorFlow / Keras
+.keras/
+.tensorboard/
+
+# Scikit-learn / ML caches
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
